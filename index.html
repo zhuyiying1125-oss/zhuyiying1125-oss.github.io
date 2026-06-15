@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本草猜猜猜 - 中草药科普小游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🌿 本草猜猜猜</h1>
+        <div class="info-bar">
+            <span>得分：<span id="score">0</span></span>
+            <span>关卡：<span id="level">1</span></span>
+        </div>
+
+        <!-- 题目区域 -->
+        <div class="question-box">
+            <div id="herb-desc"></div>
+        </div>
+
+        <!-- 选项按钮 -->
+        <div class="options-box" id="options"></div>
+
+        <!-- 提示与结果 -->
+        <div class="tip-box" id="tip"></div>
+
+        <!-- 下一题按钮 -->
+        <button class="next-btn" id="nextBtn" disabled>下一题</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
